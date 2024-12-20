@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-7/12</title>
+
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        header{
+            background-image: url(images/hero.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 700px;
+            
+        }
+        
+        nav ul{
+            justify-content: end;
+            display: flex;
+            list-style: none;
+            padding: 10px 0px;
+            margin-right: 50px;
+            margin-top: -100px;
+        }
+
+        li{
+            padding: 0px 10px;
+            margin-top: 20px;
+        }
+
+        a{
+            padding: 5px;
+            text-decoration: none;
+            color: white;
+            font-size: large;
+        }
+
+        a:hover{
+            background-color: orange;
+            border-radius: 5px;
+        }
+
+        .logo{
+            padding: 20px;
+            width: 100px;
+        }
+        .logo img{
+            width: 75px;
+            height: 75px;
+        } 
+        
+        .content{
+            margin-top: 300px;
+            color: white;
+            text-align: center;
+            font-size: large;
+        }
+
+        .content button{
+            background-color: rgb(3, 150, 255);
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            margin: 10px 0px;
+        }
+
+        .main , .scound{
+            width: 80%;
+            margin: auto;
+            padding: 80px 0px;
+        }
+
+        .back_scound{
+            background-color: rgb(239, 239, 239);
+        }
+        
+        .s1 , .s3 , .s5{
+            text-align: center;
+        }
+
+        .l1 , .l2{
+            margin-top: 20px;
+        }
+
+        .s4{
+            display: flex;
+        }
+
+        .card{
+            text-align: center;
+            margin: 0px 45px;
+        }
+
+        .card p{
+            margin-top: 25px;
+            line-height: 30px;
+        }
+
+        .s6{
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .s6 input{
+            margin: 0px 10px;
+            height: 40px;
+            border-radius: 5px;
+        }
+
+        footer{
+            background-color: rgb(66, 66, 66);
+            color: white;
+            text-align: center;
+            height: 150px;
+        }
+        
+     
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Illustration-of-logo-design-template-on-transparent-background-PNG.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>Responsive Flebox Template</h1>
+            <h3>A freebie by Al7amedeh.</h3>
+            <button>DOWNLOAD IT HERE</button>
+        </div>
+    </header>
+
+    <div class="main">
+
+    <section class="s1">
+        <h1>Some Of Our Work</h1>
+        <p style="margin: 30px 0px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus ea autem error fugiat rem sequi expedita perferendis ad fugit, facere recusandae, modi neque nam explicabo optio corrupti. Impedit, omnis.</p>
+        <hr>
+    </section>
+
+    
+
+    <section class="s2">
+        <div class="l1">
+            <img src="images/coast.jpg" alt="" style="height: 400px; width: 500px;">
+            <img src="images/island.jpg" alt="" style="height: 400px; width: 676px; margin-left: 20px;">
+        </div>
+        <div class="l2">
+            <img src="images/balloon.jpg" alt="" style="height: 400px; width: 676px; margin-right: 20px;">
+            <img src="images/mountain.jpg" alt="" style="height: 400px; width: 500px;">
+        </div>
+    </section>
+
+</div>
+
+<div class="back_scound">
+    <div class="scound">
+
+        <section class="s3">
+            <h1>Fratures And Services</h1>
+            <p style="margin: 30px 0px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus ea autem error fugiat rem sequi expedita perferendis ad fugit, facere recusandae, modi neque nam explicabo optio corrupti. Impedit, omnis.</p>
+            <hr>
+        </section>
+
+        <section class="s4" style="margin-top: 50px;">
+            <div class="card">
+                <h2>Photography</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit vel velit ipsum ratione vitae blanditiis incidunt sequi libero excepturi, debitis eos eveniet nihil maxime at error nulla ullam deleniti.</p>
+            </div>
+            <div class="card">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit vel velit ipsum ratione vitae blanditiis incidunt sequi libero excepturi, debitis eos eveniet nihil maxime at error nulla ullam deleniti.</p>
+            </div>
+            <div class="card">
+                <h2>Content Editing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit vel velit ipsum ratione vitae blanditiis incidunt sequi libero excepturi, debitis eos eveniet nihil maxime at error nulla ullam deleniti.</p>
+            </div>
+        </section>
+
+        <section class="s5" style="margin-top: 200px;">
+            <h1>Fratures And Services</h1>
+            <p style="margin: 30px 0px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus ea autem error fugiat rem sequi expedita perferendis ad fugit, facere recusandae, modi neque nam explicabo optio corrupti. Impedit, omnis.</p>
+            <hr>
+        </section>
+
+        <section class="s6">
+            <form>
+            <input type="text" placeholder="Email" style="width: 400px; height: 40px; padding: 5px;">
+            <input type="submit" value="SUBSCRIBE NOW" style="width: 170px; height: 40px; background-color: rgb(3, 150, 255); border:none; color: white;">
+            </form>
+        </section>
+    </div>
+</div>
+
+<footer>
+    <h4 style="padding-top: 50px;">MADE BY MOHAMED ALSHABATAT , IMAGES COURTESY TO UNSPLASH. <br>
+    NO ATTRIBUTION REQUIRED , YOU CAN REMOVE THIS FOOTER.</h4>
+</footer>
+</body>
+</html>
